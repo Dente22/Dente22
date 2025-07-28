@@ -44,3 +44,11 @@
 ## 📫 Связь со мной
 
 - Telegram: [@Diskusmms](https://t.me/Diskusmms)
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=danilgap&show_icons=true&theme=dracula" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danilgap&layout=compact&theme=dracula" />
+</p>
+
