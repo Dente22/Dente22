@@ -1,16 +1,35 @@
-## Hi there 👋
+# Привет! Я Данил 👋
 
-<!--
-**Dente22/Dente22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎸 Музыкант • 💻 Программист • 🎨 Создатель идей
 
-Here are some ideas to get you started:
+Меня зовут Данил, и я живу на пересечении кода, звука и смысла.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔍 Сейчас создаю: Telegram-бота поддержки, который говорит с тобой как друг
+- 🌌 Учусь и развиваю себя в: Azure, автоматизации, музыкальном продакшне и психологии
+- ⚙️ Люблю: собирать ботов, писать треки в Suno и Ableton, и оживлять истории как сцены из книг
+- 🎯 Моя цель — к 21 году выйти на доход 1.5–2 млн, развивая собственные проекты
+
+---
+
+## 🚀 Проекты
+- 🧠 [Психобот](https://github.com/твоя-ссылка) — поддержка для тех, кому тяжело — как от близкого человека
+
+---
+
+## 🛠️ Технологии, с которыми я работаю
+
+![Python](https://img.shields.io/badge/-Python-333?logo=python)
+![Telebot](https://img.shields.io/badge/-Telebot-333?logo=telegram)
+![Aiogram](https://img.shields.io/badge/-Aiogram-333?logo=telegram)
+![SQLite](https://img.shields.io/badge/-SQLite-333?logo=sqlite)
+![Power Automate](https://img.shields.io/badge/-Power%20Automate-333?logo=microsoft)
+![HTML](https://img.shields.io/badge/-HTML-333?logo=html5)
+![CSS](https://img.shields.io/badge/-CSS-333?logo=css3)
+![Ableton](https://img.shields.io/badge/-Ableton%20Live-333?logo=abletonlive)
+![Suno](https://img.shields.io/badge/-Suno.ai-333)
+
+---
+
+## 📫 Связь со мной
+
+- Telegram: [@Diskusmms](https://t.me/Diskusmms)
