@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="[https://your-link.com/banner.png](https://drive.google.com/file/d/1HjQC4vruGVyjq_uJMETYDf0aCE98Q9f5/view?usp=sharing)" width="100%" />
+</p>
+
 # Привет! Я Данил 👋
 
 🎸 Музыкант • 💻 Программист • 🎨 Создатель идей
