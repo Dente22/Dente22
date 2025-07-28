@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://your-link.com/banner.png](https://drive.google.com/file/d/1HjQC4vruGVyjq_uJMETYDf0aCE98Q9f5/view?usp=sharing)" width="100%" />
+  <img src="[[https://your-link.com/banner.png](https://drive.google.com/file/d/1HjQC4vruGVyjq_uJMETYDf0aCE98Q9f5/view?usp=sharing)" width="100%](https://github.com/Dente22/Dente22/blob/main/ChatGPT%20Image%2028%20%D0%B8%D1%8E%D0%BB.%202025%20%D0%B3.%2C%2016_48_34.png)" />
 </p>
 
 # Привет! Я Данил 👋
