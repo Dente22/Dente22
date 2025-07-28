@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Dente22/Dente22/blob/main/ChatGPT%20Image%2028%20%D0%B8%D1%8E%D0%BB.%202025%20%D0%B3.,%2016_48_34.png?raw=true" />
+  <img src="[https://github.com/Dente22/Dente22/blob/main/ChatGPT%20Image%2028%20%D0%B8%D1%8E%D0%BB.%202025%20%D0%B3.,%2016_48_34.png?raw=true](https://github.com/Dente22/Dente22/blob/main/ChatGPT%20Image%2028%20%D0%B8%D1%8E%D0%BB.%202025%20%D0%B3.,%2016_48_34%20(1).png?raw=true)" />
 </p>
 
 <h1 align="center">Dente22</h1>
