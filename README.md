@@ -36,7 +36,24 @@
 
 ## 📫 Связь со мной
 
-- Telegram: [@Diskusmms](https://t.me/Diskusmms)
+<p align="center">
+  <a href="https://t.me/diskusmms">
+    <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a https://www.youtube.com/@diskus-d1">
+    <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="https://github.com/Dente22">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/diskusms?igsh=MWs1d2dtazJyZWtscQ%3D%3D&utm_source=qr">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a https://www.tiktok.com/@diskus.ms?_t=ZM-8yP86Dytg6q&_r=1">
+    <img src="https://img.shields.io/badge/-TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
+  </a>
+</p>
+
 
 ## 📊 GitHub Stats
 
