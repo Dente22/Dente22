@@ -18,15 +18,6 @@
 ## 🚀 Проекты
 - 🧠 [Психобот](https://github.com/твоя-ссылка) — поддержка для тех, кому тяжело — как от близкого человека
 
----
-## 📊 Статистика
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dente22&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
 ## 🛠️ Технологии, с которыми я работаю
 
 ![Python](https://img.shields.io/badge/-Python-333?logo=python)
