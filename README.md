@@ -1,151 +1,353 @@
-<!--
-  Dente22 GitHub Profile
-  Upload this folder to repo named exactly: Dente22
--->
 
-<div align="center">
 
-# Dente22
 
-**vibe coding · AI · sound × code · DiskusMS**
 
-<br/>
+Dente22
 
-🌐 **Language / Язык**
+vibe coding · AI · sound × code · DiskusMS
 
-[🇺🇸 English](#-english--) · [🇷🇺 Русский](#-русский--)
 
-<br/>
 
-[![Site](https://img.shields.io/badge/DiskusMS-live-ff1744?style=for-the-badge&logo=vercel&logoColor=white)](https://diskusms-site-iota.vercel.app)
-[![Music](https://img.shields.io/badge/music-repo-00ff9d?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Dente22/diskusms-music)
-[![Cursor](https://img.shields.io/badge/Cursor_AI-8b5cf6?style=for-the-badge)](https://cursor.com)
 
-</div>
+🌐 Language / Язык
 
----
+🇺🇸 English · 🇷🇺 Русский
 
-<a id="user-content--english--"></a>
 
-## 🇺🇸 English
 
-> I build like I produce tracks: sketch → jam with AI → mix → ship.
 
-<p align="center">
-  <img src="./assets/neofetch-en.svg" alt="neofetch dente22@diskusms" width="920" />
-</p>
+Site
+Music
+Cursor
 
-### How I vibe-code
 
-```diff
+
+
+
+
+
+🇺🇸 English
+
+
+
+I build like I produce tracks: sketch → jam with AI → mix → ship.
+
+
+
+
+
+
+
+
+
+    ██████╗ ███╗   ███╗███████╗
+    ██╔══██╗████╗ ████║██╔════╝
+    ██║  ██║██╔████╔██║███████╗
+    ██║  ██║██║╚██╔╝██║╚════██║
+    ██████╔╝██║ ╚═╝ ██║███████║
+    ╚═════╝ ╚═╝     ╚═╝╚══════╝
+
+    DISKUS(MS) // REBEL×CODE
+    vibe coding · AI online
+    no masters · only flow
+
+
+
+dente22@diskusms
+-------------------------------
+OS:        Windows · Vercel · GitHub
+Host:      DiskusMS — sound × code
+Kernel:    vibe coding + AI copilots
+IDE:       Cursor (primary) · VS Code
+Shell:     PowerShell · git · ship
+
+Languages:
+  code     TypeScript, Python, JS
+  human    Russian, English
+
+Hobbies:   music drops · bots · 3D web
+Contact:   github.com/Dente22
+Site:      diskusms-site-iota.vercel.app
+
+
+
+How I vibe-code
+
 + human taste & direction
 + Cursor / AI speed
 + ship energy
 - blind copy-paste prompts
 - generic purple “AI portfolio” vibes
-```
 
-1. **Sketch** — idea + constraints  
-2. **Jam** — Cursor agent + me in one session  
-3. **Mix** — cut noise, keep character  
-4. **Master** — tests, deploy, drop  
 
-### Shipping now
 
-| Project | What | Links |
-|--------:|:-----|:------|
-| **DiskusMS** | Portfolio · 3D · rock×hacker | [site](https://diskusms-site-iota.vercel.app) · [repo](https://github.com/Dente22/diskusms-site) |
-| **diskusms-music** | Tracks + covers as git source of truth | [repo](https://github.com/Dente22/diskusms-music) |
-| **WithYou bot** | Telegram · Python | [repo](https://github.com/Dente22/WithYou_bot_public) |
 
-### Stack
 
-```text
+Sketch — idea + constraints
+
+
+
+Jam — Cursor agent + me in one session
+
+
+
+Mix — cut noise, keep character
+
+
+
+Master — tests, deploy, drop
+
+
+
+Shipping now
+
+
+
+
+
+
+
+Project
+
+
+
+What
+
+
+
+Links
+
+
+
+
+
+DiskusMS
+
+
+
+Portfolio · 3D · rock×hacker
+
+
+
+site · repo
+
+
+
+
+
+diskusms-music
+
+
+
+Tracks + covers as git source of truth
+
+
+
+repo
+
+
+
+
+
+WithYou bot
+
+
+
+Telegram · Python
+
+
+
+repo
+
+
+
+Stack
+
 AI     Cursor · vibe coding · prompt-as-craft
 WEB    TypeScript · React · Vite · Three.js
 BACK   Node · Python · bots
 SOUND  releases · streaming links · production
 SHIP   GitHub · Vercel · repo-driven content
-```
 
-<p align="center">
-  <a href="https://diskusms-site-iota.vercel.app">
-    <img src="./assets/enter-banner.svg" alt="Enter DiskusMS" width="680" />
-  </a>
-</p>
 
-<div align="center">
 
-[Open site](https://diskusms-site-iota.vercel.app) ·
-[Music](https://diskusms-site-iota.vercel.app/music) ·
-[Software](https://diskusms-site-iota.vercel.app/software)
+╔══════════════════════════════════════════╗
+║  ▶  ENTER DISKUS(MS)  ·  ROCK × CODE     ║
+║  https://diskusms-site-iota.vercel.app   ║
+╚══════════════════════════════════════════╝
 
-[🇷🇺 Switch to Russian](#-русский--)
+Open site ·
+Music ·
+Software
 
-</div>
+🇷🇺 Switch to Russian
 
----
 
-<a id="user-content--русский--"></a>
 
-## 🇷🇺 Русский
 
-> Пишу код как трек: черновик → джем с AI → сведение → релиз.
 
-<p align="center">
-  <img src="./assets/neofetch-ru.svg" alt="neofetch dente22@diskusms" width="920" />
-</p>
 
-### Как я вайб-кожу
 
-```diff
+🇷🇺 Русский
+
+
+
+Пишу код как трек: черновик → джем с AI → сведение → релиз.
+
+
+
+
+
+
+
+
+
+    ██████╗ ███╗   ███╗███████╗
+    ██╔══██╗████╗ ████║██╔════╝
+    ██║  ██║██╔████╔██║███████╗
+    ██║  ██║██║╚██╔╝██║╚════██║
+    ██████╔╝██║ ╚═╝ ██║███████║
+    ╚═════╝ ╚═╝     ╚═╝╚══════╝
+
+    DISKUS(MS) // ROCK×CODE
+    вайб-кодинг · AI онлайн
+    без хозяев · только flow
+
+
+
+dente22@diskusms
+-------------------------------
+ОС:        Windows · Vercel · GitHub
+Хост:      DiskusMS — звук × код
+Ядро:      вайб-кодинг + AI-копилоты
+IDE:       Cursor (основной) · VS Code
+Шелл:      PowerShell · git · ship
+
+Языки:
+  код      TypeScript, Python, JS
+  люди     Русский, English
+
+Хобби:     дропы · боты · 3D веб
+Контакт:   github.com/Dente22
+Сайт:      diskusms-site-iota.vercel.app
+
+
+
+Как я вайб-кожу
+
 + вкус и направление человека
 + скорость Cursor / AI
 + энергия ship
 - слепые промпты «сделай всё»
 - шаблонный фиолетовый AI-портфолио вайб
-```
 
-1. **Sketch** — идея и рамки  
-2. **Jam** — Cursor + я в одной сессии  
-3. **Mix** — убираю лишнее, оставляю характер  
-4. **Master** — тесты, деплой, дроп  
 
-### Сейчас в работе
 
-| Проект | Что это | Ссылки |
-|-------:|:--------|:-------|
-| **DiskusMS** | Портфолио · 3D · rock×hacker | [сайт](https://diskusms-site-iota.vercel.app) · [репо](https://github.com/Dente22/diskusms-site) |
-| **diskusms-music** | Треки и обложки как источник правды в git | [репо](https://github.com/Dente22/diskusms-music) |
-| **WithYou bot** | Telegram · Python | [репо](https://github.com/Dente22/WithYou_bot_public) |
 
-### Стек
 
-```text
+Sketch — идея и рамки
+
+
+
+Jam — Cursor + я в одной сессии
+
+
+
+Mix — убираю лишнее, оставляю характер
+
+
+
+Master — тесты, деплой, дроп
+
+
+
+Сейчас в работе
+
+
+
+
+
+
+
+Проект
+
+
+
+Что это
+
+
+
+Ссылки
+
+
+
+
+
+DiskusMS
+
+
+
+Портфолио · 3D · rock×hacker
+
+
+
+сайт · репо
+
+
+
+
+
+diskusms-music
+
+
+
+Треки и обложки как источник правды в git
+
+
+
+репо
+
+
+
+
+
+WithYou bot
+
+
+
+Telegram · Python
+
+
+
+репо
+
+
+
+Стек
+
 AI     Cursor · вайб-кодинг · промпт как ремесло
 WEB    TypeScript · React · Vite · Three.js
 BACK   Node · Python · боты
 SOUND  релизы · стриминг · продакшн
 SHIP   GitHub · Vercel · контент из репозиториев
-```
 
-<p align="center">
-  <a href="https://diskusms-site-iota.vercel.app">
-    <img src="./assets/enter-banner.svg" alt="Войти в DiskusMS" width="680" />
-  </a>
-</p>
 
-<div align="center">
 
-[Открыть сайт](https://diskusms-site-iota.vercel.app) ·
-[Музыка](https://diskusms-site-iota.vercel.app/music) ·
-[Софт](https://diskusms-site-iota.vercel.app/software)
+╔══════════════════════════════════════════╗
+║  ▶  ВОЙТИ В DISKUS(MS)  ·  ROCK × CODE   ║
+║  https://diskusms-site-iota.vercel.app   ║
+╚══════════════════════════════════════════╝
 
-[🇺🇸 Switch to English](#-english--)
+Открыть сайт ·
+Музыка ·
+Софт
 
-<br/><br/>
+🇺🇸 Switch to English
 
-`no masters · only flow`  
-**Dente22 // DiskusMS // 2026**
 
-</div>
+
+
+
+no masters · only flow
+Dente22 // DiskusMS // 2026
+
