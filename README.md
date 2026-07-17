@@ -1,6 +1,8 @@
 <!--
-  Dente22 profile — LEVEL: neofetch / Andrew-style
-  MUST upload: README.md + assets/neofetch.svg into repo Dente22
+  Dente22 profile
+  Images that WORK on GitHub profile:
+  - PNG (not SVG) for neofetch card
+  - shields.io for stats (github-readme-stats is often down)
 -->
 
 <div align="center">
@@ -10,26 +12,20 @@
 
 <br/>
 
-<!-- ABSOLUTE URL — relative SVG often breaks on profile pages -->
-<img src="https://raw.githubusercontent.com/Dente22/Dente22/main/assets/neofetch.svg" alt="neofetch dente22@diskusms" width="980" />
+<img src="https://raw.githubusercontent.com/Dente22/Dente22/main/assets/neofetch.png" alt="neofetch dente22@diskusms" width="980" />
 
 <br/>
 
-<a href="https://diskusms-site-iota.vercel.app">
-  <img src="https://img.shields.io/badge/DiskusMS-live_site-ff1744?style=for-the-badge&logo=vercel&logoColor=white" alt="site"/>
-</a>
-<a href="https://github.com/Dente22/diskusms-music">
-  <img src="https://img.shields.io/badge/music-repo-00ff9d?style=for-the-badge&logo=github&logoColor=black" alt="music"/>
-</a>
-<a href="https://github.com/Dente22/diskusms-site">
-  <img src="https://img.shields.io/badge/site-repo-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="site repo"/>
-</a>
+<a href="https://diskusms-site-iota.vercel.app"><img src="https://img.shields.io/badge/DiskusMS-live_site-ff1744?style=for-the-badge&logo=vercel&logoColor=white" alt="site"/></a>
+<a href="https://github.com/Dente22/diskusms-music"><img src="https://img.shields.io/badge/music-repo-00ff9d?style=for-the-badge&logo=github&logoColor=black" alt="music"/></a>
+<a href="https://github.com/Dente22/diskusms-site"><img src="https://img.shields.io/badge/site-repo-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="site repo"/></a>
 
 <br/><br/>
 
-<!-- live GitHub stats (external, always work) -->
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Dente22&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff1744&icon_color=00ff9d&text_color=c9d1d9" alt="stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dente22&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9" alt="languages" />
+<img src="https://img.shields.io/github/followers/Dente22?style=for-the-badge&logo=github&color=8b5cf6" alt="followers"/>
+<img src="https://img.shields.io/github/stars/Dente22?affiliations=OWNER&style=for-the-badge&logo=github&color=ff1744" alt="stars"/>
+<img src="https://img.shields.io/badge/mode-VIBE%2BAI-00ff9d?style=for-the-badge" alt="mode"/>
+<img src="https://img.shields.io/badge/stack-TS%20%7C%20Python%20%7C%20Cursor-111111?style=for-the-badge" alt="stack"/>
 
 </div>
 
