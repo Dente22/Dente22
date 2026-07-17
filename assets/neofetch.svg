@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+  <defs>
+    <linearGradient id="stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1744"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+  </defs>
+  <rect width="980" height="560" rx="18" fill="#0d1117" stroke="url(#stroke)" stroke-width="2.5"/>
+  <rect width="980" height="40" rx="18" fill="#010409"/>
+  <rect y="22" width="980" height="18" fill="#010409"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="20" r="6" fill="#27c93f"/>
+  <text x="490" y="24" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,Consolas,monospace" font-size="12">dente22 — zsh — neofetch · cat avatar ASCII</text>
+
+  <g font-family="ui-monospace,Consolas,Menlo,monospace" font-size="10.5">
+<text x="20" y="70" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="82" fill="#0d1117" xml:space="preserve">                                      </text>
+<text x="261.29999999999995" y="82" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="267.65" y="82" fill="#0d1117" xml:space="preserve"> </text>
+<text x="20" y="94" fill="#0d1117" xml:space="preserve">          </text>
+<text x="83.5" y="94" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="89.85" y="94" fill="#0d1117" xml:space="preserve">                  </text>
+<text x="204.14999999999998" y="94" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="210.5" y="94" fill="#0d1117" xml:space="preserve">  </text>
+<text x="223.2" y="94" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="229.54999999999998" y="94" fill="#0d1117" xml:space="preserve">       </text>
+<text x="20" y="106" fill="#0d1117" xml:space="preserve">       </text>
+<text x="64.44999999999999" y="106" fill="#e6edf3" xml:space="preserve">@@</text>
+<text x="77.15" y="106" fill="#0d1117" xml:space="preserve">                               </text>
+<text x="20" y="118" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="130" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="142" fill="#0d1117" xml:space="preserve"> </text>
+<text x="26.35" y="142" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="32.7" y="142" fill="#0d1117" xml:space="preserve"> </text>
+<text x="39.05" y="142" fill="#e6edf3" xml:space="preserve">@@@</text>
+<text x="58.099999999999994" y="142" fill="#0d1117" xml:space="preserve">                                  </text>
+<text x="20" y="154" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="166" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="178" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="190" fill="#0d1117" xml:space="preserve">                                        </text>
+<text x="20" y="202" fill="#0d1117" xml:space="preserve">               </text>
+<text x="115.25" y="202" fill="#e6edf3" xml:space="preserve">@@</text>
+<text x="127.94999999999999" y="202" fill="#0d1117" xml:space="preserve">                       </text>
+<text x="20" y="214" fill="#0d1117" xml:space="preserve">              </text>
+<text x="108.89999999999999" y="214" fill="#e6edf3" xml:space="preserve">@@@</text>
+<text x="127.94999999999999" y="214" fill="#0d1117" xml:space="preserve">                       </text>
+<text x="20" y="226" fill="#0d1117" xml:space="preserve">              </text>
+<text x="108.89999999999999" y="226" fill="#e6edf3" xml:space="preserve">@@@@</text>
+<text x="134.3" y="226" fill="#0d1117" xml:space="preserve">           </text>
+<text x="204.14999999999998" y="226" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="210.5" y="226" fill="#0d1117" xml:space="preserve">          </text>
+<text x="20" y="238" fill="#0d1117" xml:space="preserve">             </text>
+<text x="102.55" y="238" fill="#e6edf3" xml:space="preserve">@@@@@@@@@</text>
+<text x="159.7" y="238" fill="#0d1117" xml:space="preserve">     </text>
+<text x="191.45" y="238" fill="#e6edf3" xml:space="preserve">@@@</text>
+<text x="210.5" y="238" fill="#0d1117" xml:space="preserve">          </text>
+<text x="20" y="250" fill="#0d1117" xml:space="preserve">             </text>
+<text x="102.55" y="250" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@</text>
+<text x="210.5" y="250" fill="#0d1117" xml:space="preserve">        </text>
+<text x="261.29999999999995" y="250" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="267.65" y="250" fill="#0d1117" xml:space="preserve"> </text>
+<text x="20" y="262" fill="#0d1117" xml:space="preserve">             </text>
+<text x="102.55" y="262" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@</text>
+<text x="210.5" y="262" fill="#0d1117" xml:space="preserve">        </text>
+<text x="261.29999999999995" y="262" fill="#e6edf3" xml:space="preserve">@@</text>
+<text x="20" y="274" fill="#0d1117" xml:space="preserve">             </text>
+<text x="102.55" y="274" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@</text>
+<text x="204.14999999999998" y="274" fill="#0d1117" xml:space="preserve">           </text>
+<text x="20" y="286" fill="#0d1117" xml:space="preserve">            </text>
+<text x="96.19999999999999" y="286" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@</text>
+<text x="204.14999999999998" y="286" fill="#0d1117" xml:space="preserve">           </text>
+<text x="20" y="298" fill="#0d1117" xml:space="preserve">             </text>
+<text x="102.55" y="298" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="197.79999999999998" y="298" fill="#0d1117" xml:space="preserve">            </text>
+<text x="20" y="310" fill="#e6edf3" xml:space="preserve">@</text>
+<text x="26.35" y="310" fill="#0d1117" xml:space="preserve">            </text>
+<text x="102.55" y="310" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="197.79999999999998" y="310" fill="#0d1117" xml:space="preserve">            </text>
+<text x="20" y="322" fill="#0d1117" xml:space="preserve">            </text>
+<text x="96.19999999999999" y="322" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="191.45" y="322" fill="#0d1117" xml:space="preserve">             </text>
+<text x="20" y="334" fill="#0d1117" xml:space="preserve">            </text>
+<text x="96.19999999999999" y="334" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="191.45" y="334" fill="#0d1117" xml:space="preserve">             </text>
+<text x="20" y="346" fill="#0d1117" xml:space="preserve">           </text>
+<text x="89.85" y="346" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="185.1" y="346" fill="#0d1117" xml:space="preserve">              </text>
+<text x="20" y="358" fill="#0d1117" xml:space="preserve">           </text>
+<text x="89.85" y="358" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@</text>
+<text x="185.1" y="358" fill="#0d1117" xml:space="preserve">              </text>
+<text x="20" y="370" fill="#0d1117" xml:space="preserve">           </text>
+<text x="89.85" y="370" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@</text>
+<text x="191.45" y="370" fill="#0d1117" xml:space="preserve">             </text>
+<text x="20" y="382" fill="#0d1117" xml:space="preserve">          </text>
+<text x="83.5" y="382" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@</text>
+<text x="191.45" y="382" fill="#0d1117" xml:space="preserve">       </text>
+<text x="235.89999999999998" y="382" fill="#e6edf3" xml:space="preserve">@@@@@@</text>
+<text x="20" y="394" fill="#e6edf3" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+
+  </g>
+
+  <g font-family="ui-monospace,Consolas,monospace" font-size="15">
+    <text x="320" y="78">
+      <tspan fill="#ff1744" font-weight="700">dente22</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#00ff9d" font-weight="700">diskusms</tspan>
+    </text>
+    <text x="320" y="98" fill="#30363d">────────────────────────────────────</text>
+    <text x="320" y="130"><tspan fill="#f78166">OS</tspan><tspan fill="#8b949e">:           </tspan><tspan fill="#c9d1d9">Windows · Vercel · GitHub</tspan></text>
+    <text x="320" y="158"><tspan fill="#f78166">Host</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#c9d1d9">DiskusMS — sound × code</tspan></text>
+    <text x="320" y="186"><tspan fill="#f78166">Kernel</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#c9d1d9">vibe coding + AI copilots</tspan></text>
+    <text x="320" y="214"><tspan fill="#f78166">IDE</tspan><tspan fill="#8b949e">:          </tspan><tspan fill="#c9d1d9">Cursor · VS Code</tspan></text>
+    <text x="320" y="242"><tspan fill="#f78166">Shell</tspan><tspan fill="#8b949e">:        </tspan><tspan fill="#c9d1d9">PowerShell · git · ship</tspan></text>
+    <text x="320" y="278"><tspan fill="#f78166">Languages</tspan><tspan fill="#8b949e">:</tspan></text>
+    <text x="320" y="304"><tspan fill="#a371f7">  Programming</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#79c0ff">TypeScript, Python, JS</tspan></text>
+    <text x="320" y="330"><tspan fill="#a371f7">  Real</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#79c0ff">Russian, English</tspan></text>
+    <text x="320" y="366"><tspan fill="#f78166">Hobbies</tspan><tspan fill="#8b949e">:</tspan></text>
+    <text x="320" y="392"><tspan fill="#a371f7">  Software</tspan><tspan fill="#8b949e">:    </tspan><tspan fill="#79c0ff">bots, 3D web, shipping</tspan></text>
+    <text x="320" y="418"><tspan fill="#a371f7">  Sound</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#79c0ff">drops, production, radar</tspan></text>
+    <text x="320" y="454"><tspan fill="#f78166">Contact</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#58a6ff">github.com/Dente22</tspan></text>
+    <text x="320" y="480"><tspan fill="#f78166">Website</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#3fb950">diskusms-site-iota.vercel.app</tspan></text>
+  </g>
+
+  <rect x="24" y="505" width="932" height="36" rx="8" fill="#010409" stroke="#21262d"/>
+  <text x="40" y="528" font-family="ui-monospace,Consolas,monospace" font-size="13">
+    <tspan fill="#f78166">GitHub Stats:</tspan>
+    <tspan fill="#8b949e">  Mode </tspan><tspan fill="#a371f7">VIBE+AI</tspan>
+    <tspan fill="#8b949e">  ·  Diff </tspan><tspan fill="#3fb950">+ideas</tspan><tspan fill="#8b949e">/</tspan><tspan fill="#f85149">-noise</tspan>
+    <tspan fill="#8b949e">  ·  Avatar </tspan><tspan fill="#00ff9d">ASCII_CAT</tspan>
+  </text>
+</svg>
