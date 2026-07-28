@@ -9,9 +9,25 @@ const projects = [
     href: "https://diskusms-site-iota.vercel.app",
     title: "Dente22/diskusms-site",
     name: "DiskusMS",
-    desc: "portfolio � 3D � rock � hacker vibe",
+    desc: "portfolio · 3D · rock × hacker vibe",
     tags: ["TypeScript", "3D", "Vercel"],
     accent: "#ff1744",
+  },
+  {
+    href: "https://github.com/Dente22/CoreX-AI-code-free",
+    title: "Dente22/CoreX-AI-code-free",
+    name: "CoreX",
+    desc: "local-first AI IDE · agents on your machine",
+    tags: ["Python", "Electron", "AI"],
+    accent: "#58a6ff",
+  },
+  {
+    href: "https://github.com/Dente22/Pyrser-AI-obsydian",
+    title: "Dente22/Pyrser-AI-obsydian",
+    name: "Pyrser AI",
+    desc: "AI parser · Obsidian notes · knowledge",
+    tags: ["Python", "Obsidian", "AI"],
+    accent: "#8b5cf6",
   },
   {
     href: "https://github.com/Dente22/diskusms-music",
@@ -25,19 +41,22 @@ const projects = [
     href: "https://github.com/Dente22/WithYou_bot_public",
     title: "Dente22/WithYou_bot_public",
     name: "WithYou bot",
-    desc: "Telegram bot � Python � shipping",
+    desc: "Telegram bot · Python · shipping",
     tags: ["Python", "Telegram", "Bots"],
-    accent: "#8b5cf6",
+    accent: "#f78166",
   },
   {
     href: "https://github.com/Dente22",
-    title: "Dente22 � vibe coding",
+    title: "Dente22 · vibe coding",
     name: "REBEL_MODE",
-    desc: "Sketch ? Jam ? Mix ? Master ? Ship",
+    desc: "Sketch → Jam → Mix → Master → Ship",
     tags: ["Cursor", "AI", "Vibe"],
-    accent: "#58a6ff",
+    accent: "#a371f7",
   },
 ];
+
+const rows = Math.ceil(projects.length / 2);
+const height = 48 + rows * 180;
 
 function card(p, i) {
   const col = i % 2;
@@ -72,7 +91,7 @@ function card(p, i) {
 }
 
 const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="420" viewBox="0 0 1180 420" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Projects">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="${height}" viewBox="0 0 1180 ${height}" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Projects">
   <defs>
     <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ff1744">
@@ -83,7 +102,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1180" height="420" fill="#0d1117"/>
+  <rect width="1180" height="${height}" fill="#0d1117"/>
   <text x="16" y="24" font-size="12" letter-spacing="2" fill="#58a6ff">PROJECTS.LIST</text>
   <text x="150" y="24" font-size="11" fill="#484f58">./projects.sh --all</text>
   <line x1="16" y1="34" x2="1164" y2="34" stroke="url(#acc)" stroke-width="1.5" opacity="0.8"/>
@@ -92,4 +111,4 @@ ${projects.map(card).join("\n")}
 `;
 
 fs.writeFileSync(path.join(__dirname, "projects.svg"), svg);
-console.log("wrote projects.svg");
+console.log("wrote projects.svg", projects.length, "cards", "h=", height);
