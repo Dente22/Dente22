@@ -1,8 +1,9 @@
 <!--
   Dente22 profile — cyber / neon layout (stats + visual.map + projects)
   Tips for GitHub:
-  - Prefer PNG for static cards if SVG caching acts up
-  - streak-stats / readme-stats are remote SVGs
+  - Prefer PNG/GIF for local cards
+  - Official github-readme-stats.vercel.app is often paused (503)
+  - Use community mirror: github-readme-stats.shion.dev
 -->
 
 <!-- ===== HERO: particles assemble into cat + SYSTEM.INFO ===== -->
@@ -36,8 +37,8 @@
 <!-- ===== STATS + LANGUAGES ===== -->
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Dente22&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=58A6FF&icon_color=8B5CF6&text_color=8B949E&bg_color=0D1117" alt="Dente22 GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dente22&layout=compact&langs_count=8&hide_border=true&title_color=58A6FF&text_color=8B949E&bg_color=0D1117" alt="Top languages" />
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Dente22&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=58A6FF&icon_color=8B5CF6&text_color=8B949E&bg_color=0D1117" alt="Dente22 GitHub stats" />
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Dente22&layout=compact&langs_count=8&hide_border=true&title_color=58A6FF&text_color=8B949E&bg_color=0D1117" alt="Top languages" />
 
 </div>
 
