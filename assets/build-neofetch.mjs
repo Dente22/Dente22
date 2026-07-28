@@ -81,19 +81,21 @@ ${texts}
       <tspan fill="#ff1744" font-weight="700">dente22</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#00ff9d" font-weight="700">diskusms</tspan>
     </text>
     <text x="320" y="98" fill="#30363d">────────────────────────────────────</text>
-    <text x="320" y="130"><tspan fill="#f78166">OS</tspan><tspan fill="#8b949e">:           </tspan><tspan fill="#c9d1d9">Windows · Vercel · GitHub</tspan></text>
-    <text x="320" y="158"><tspan fill="#f78166">Host</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#c9d1d9">DiskusMS — sound × code</tspan></text>
-    <text x="320" y="186"><tspan fill="#f78166">Kernel</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#c9d1d9">vibe coding + AI copilots</tspan></text>
-    <text x="320" y="214"><tspan fill="#f78166">IDE</tspan><tspan fill="#8b949e">:          </tspan><tspan fill="#c9d1d9">Cursor · VS Code</tspan></text>
-    <text x="320" y="242"><tspan fill="#f78166">Shell</tspan><tspan fill="#8b949e">:        </tspan><tspan fill="#c9d1d9">PowerShell · git · ship</tspan></text>
-    <text x="320" y="278"><tspan fill="#f78166">Languages</tspan><tspan fill="#8b949e">:</tspan></text>
-    <text x="320" y="304"><tspan fill="#a371f7">  Programming</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#79c0ff">TypeScript, Python, JS</tspan></text>
-    <text x="320" y="330"><tspan fill="#a371f7">  Real</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#79c0ff">Russian, English</tspan></text>
-    <text x="320" y="366"><tspan fill="#f78166">Hobbies</tspan><tspan fill="#8b949e">:</tspan></text>
-    <text x="320" y="392"><tspan fill="#a371f7">  Software</tspan><tspan fill="#8b949e">:    </tspan><tspan fill="#79c0ff">bots, 3D web, shipping</tspan></text>
-    <text x="320" y="418"><tspan fill="#a371f7">  Sound</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#79c0ff">drops, production, radar</tspan></text>
-    <text x="320" y="454"><tspan fill="#f78166">Contact</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#58a6ff">github.com/Dente22</tspan></text>
-    <text x="320" y="480"><tspan fill="#f78166">Website</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#3fb950">diskusms-site-iota.vercel.app</tspan></text>
+    <text x="320" y="122"><tspan fill="#f78166">OS</tspan><tspan fill="#8b949e">:           </tspan><tspan fill="#c9d1d9">Windows · Vercel · GitHub</tspan></text>
+    <text x="320" y="146"><tspan fill="#f78166">Uptime</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#c9d1d9">~18–19 yrs (b. 2007)</tspan></text>
+    <text x="320" y="170"><tspan fill="#f78166">Location</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#c9d1d9">Almaty</tspan></text>
+    <text x="320" y="194"><tspan fill="#f78166">Host</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#c9d1d9">DiskusMS — sound × code</tspan></text>
+    <text x="320" y="218"><tspan fill="#f78166">Kernel</tspan><tspan fill="#8b949e">:       </tspan><tspan fill="#c9d1d9">vibe coding + AI copilots</tspan></text>
+    <text x="320" y="242"><tspan fill="#f78166">IDE</tspan><tspan fill="#8b949e">:          </tspan><tspan fill="#c9d1d9">Cursor · VS Code</tspan></text>
+    <text x="320" y="266"><tspan fill="#f78166">Shell</tspan><tspan fill="#8b949e">:        </tspan><tspan fill="#c9d1d9">PowerShell · git · ship</tspan></text>
+    <text x="320" y="298"><tspan fill="#f78166">Languages</tspan><tspan fill="#8b949e">:</tspan></text>
+    <text x="320" y="322"><tspan fill="#a371f7">  Programming</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#79c0ff">TypeScript, Python, JS</tspan></text>
+    <text x="320" y="346"><tspan fill="#a371f7">  Real</tspan><tspan fill="#8b949e">:         </tspan><tspan fill="#79c0ff">Russian, English</tspan></text>
+    <text x="320" y="378"><tspan fill="#f78166">Contact</tspan><tspan fill="#8b949e">:</tspan></text>
+    <text x="320" y="402"><tspan fill="#a371f7">  Discord</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#79c0ff">antoniopizdythi7009</tspan></text>
+    <text x="320" y="426"><tspan fill="#a371f7">  Telegram</tspan><tspan fill="#8b949e">:    </tspan><tspan fill="#79c0ff">@Diskusmms</tspan></text>
+    <text x="320" y="450"><tspan fill="#a371f7">  GitHub</tspan><tspan fill="#8b949e">:      </tspan><tspan fill="#58a6ff">github.com/Dente22</tspan></text>
+    <text x="320" y="474"><tspan fill="#a371f7">  Website</tspan><tspan fill="#8b949e">:     </tspan><tspan fill="#3fb950">diskusms-site-iota.vercel.app</tspan></text>
   </g>
 
   <rect x="24" y="505" width="932" height="36" rx="8" fill="#010409" stroke="#21262d"/>
@@ -101,7 +103,7 @@ ${texts}
     <tspan fill="#f78166">GitHub Stats:</tspan>
     <tspan fill="#8b949e">  Mode </tspan><tspan fill="#a371f7">VIBE+AI</tspan>
     <tspan fill="#8b949e">  ·  Diff </tspan><tspan fill="#3fb950">+ideas</tspan><tspan fill="#8b949e">/</tspan><tspan fill="#f85149">-noise</tspan>
-    <tspan fill="#8b949e">  ·  Avatar </tspan><tspan fill="#00ff9d">ASCII_CAT</tspan>
+    <tspan fill="#8b949e">  ·  Base </tspan><tspan fill="#00ff9d">Almaty</tspan>
   </text>
 </svg>
 `;

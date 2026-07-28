@@ -1,0 +1,12 @@
+{
+  "name": "dente22-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node assets/build-visual-map.mjs && node assets/build-projects.mjs && node assets/build-neofetch.mjs",
+    "render": "node assets/render-png.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

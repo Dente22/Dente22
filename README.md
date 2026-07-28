@@ -1,33 +1,74 @@
 <!--
-  Dente22 profile
-  Images that WORK on GitHub profile:
-  - PNG (not SVG) for neofetch card
-  - shields.io for stats (github-readme-stats is often down)
+  Dente22 profile — cyber / neon layout (stats + visual.map + projects)
+  Tips for GitHub:
+  - Prefer PNG for static cards if SVG caching acts up
+  - streak-stats / readme-stats are remote SVGs
 -->
 
+<!-- ===== HERO: VISUAL.MAP + SYSTEM.INFO ===== -->
 <div align="center">
+  <img src="./assets/visual-map.png" alt="Dente22 visual.map · system.info" width="100%" />
+</div>
 
-# Dente22
-**vibe coding · AI · sound × code · DiskusMS**
+<br/>
+
+<!-- ===== NEOFETCH CARD ===== -->
+<div align="center">
+  <img src="./assets/neofetch.png" alt="neofetch dente22@diskusms" width="980" />
+</div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Dente22/Dente22/main/assets/neofetch.png" alt="neofetch dente22@diskusms" width="980" />
-
-<br/>
+<!-- ===== CTA ===== -->
+<div align="center">
 
 <a href="https://diskusms-site-iota.vercel.app"><img src="https://img.shields.io/badge/DiskusMS-live_site-ff1744?style=for-the-badge&logo=vercel&logoColor=white" alt="site"/></a>
 <a href="https://github.com/Dente22/diskusms-music"><img src="https://img.shields.io/badge/music-repo-00ff9d?style=for-the-badge&logo=github&logoColor=black" alt="music"/></a>
 <a href="https://github.com/Dente22/diskusms-site"><img src="https://img.shields.io/badge/site-repo-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="site repo"/></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/github/followers/Dente22?style=for-the-badge&logo=github&color=8b5cf6" alt="followers"/>
-<img src="https://img.shields.io/github/stars/Dente22?affiliations=OWNER&style=for-the-badge&logo=github&color=ff1744" alt="stars"/>
-<img src="https://img.shields.io/badge/mode-VIBE%2BAI-00ff9d?style=for-the-badge" alt="mode"/>
-<img src="https://img.shields.io/badge/stack-TS%20%7C%20Python%20%7C%20Cursor-111111?style=for-the-badge" alt="stack"/>
+<a href="https://t.me/Diskusmms"><img src="https://img.shields.io/badge/Telegram-@Diskusmms-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram"/></a>
 
 </div>
+
+<br/>
+
+<!-- ===== STREAK ===== -->
+<div align="center">
+
+<img width="100%" src="https://streak-stats.demolab.com/?user=Dente22&hide_border=true&background=0D1117&stroke=58A6FF&ring=8B5CF6&fire=FF1744&currStreakLabel=00FF9D&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=484F58&titleColor=58A6FF&card_width=1180" alt="GitHub streak" />
+
+</div>
+
+<br/>
+
+<!-- ===== STATS + LANGUAGES ===== -->
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Dente22&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=58A6FF&icon_color=8B5CF6&text_color=8B949E&bg_color=0D1117" alt="Dente22 GitHub stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dente22&layout=compact&langs_count=8&hide_border=true&title_color=58A6FF&text_color=8B949E&bg_color=0D1117" alt="Top languages" />
+
+</div>
+
+<br/>
+
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dente22/Dente22/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dente22/Dente22/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Dente22/Dente22/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ===== PROJECTS ===== -->
+<div align="center">
+  <img width="100%" src="./assets/projects.png" alt="Projects" />
+</div>
+
+<br/>
 
 ---
 
