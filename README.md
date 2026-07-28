@@ -6,9 +6,9 @@
   - Use community mirror: github-readme-stats.shion.dev
 -->
 
-<!-- ===== HERO: particles assemble into cat + SYSTEM.INFO ===== -->
+<!-- ===== HERO: particles assemble into cat (autoplay SVG like snake) ===== -->
 <div align="center">
-  <img src="./assets/visual-map.gif" alt="Dente22 visual.map — particles assemble into cat" width="100%" />
+  <img src="./assets/visual-map.svg" alt="Dente22 visual.map — particles assemble into cat" width="100%" />
 </div>
 
 <br/>
