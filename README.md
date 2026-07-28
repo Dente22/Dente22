@@ -5,16 +5,9 @@
   - streak-stats / readme-stats are remote SVGs
 -->
 
-<!-- ===== HERO: VISUAL.MAP + SYSTEM.INFO ===== -->
+<!-- ===== HERO: particles assemble into cat + SYSTEM.INFO ===== -->
 <div align="center">
-  <img src="./assets/visual-map.png" alt="Dente22 visual.map · system.info" width="100%" />
-</div>
-
-<br/>
-
-<!-- ===== NEOFETCH CARD ===== -->
-<div align="center">
-  <img src="./assets/neofetch.png" alt="neofetch dente22@diskusms" width="980" />
+  <img src="./assets/visual-map.gif" alt="Dente22 visual.map — particles assemble into cat" width="100%" />
 </div>
 
 <br/>
