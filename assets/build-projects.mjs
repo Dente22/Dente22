@@ -22,11 +22,11 @@ const projects = [
     accent: "#58a6ff",
   },
   {
-    href: "https://github.com/Dente22/Pyrser-AI-obsydian",
-    title: "Dente22/Pyrser-AI-obsydian",
-    name: "Pyrser AI",
-    desc: "AI parser · Obsidian notes · knowledge",
-    tags: ["Python", "Obsidian", "AI"],
+    href: "https://github.com/Dente22/Resona-music-nearby",
+    title: "Dente22/Resona-music-nearby",
+    name: "Resona",
+    desc: "side-panel music player · offline + streaming",
+    tags: ["TypeScript", "Electron", "Music"],
     accent: "#8b5cf6",
   },
   {

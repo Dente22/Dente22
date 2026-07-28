@@ -80,7 +80,7 @@
 |--------:|:-----|
 | [DiskusMS](https://diskusms-site-iota.vercel.app) | portfolio · 3D · rock×hacker |
 | [CoreX](https://github.com/Dente22/CoreX-AI-code-free) | local-first AI IDE · agents on your machine |
-| [Pyrser AI](https://github.com/Dente22/Pyrser-AI-obsydian) | AI parser · Obsidian notes · knowledge |
+| [Resona](https://github.com/Dente22/Resona-music-nearby) | side-panel music player · offline + streaming |
 | [diskusms-music](https://github.com/Dente22/diskusms-music) | tracks + covers as source of truth |
 | [WithYou bot](https://github.com/Dente22/WithYou_bot_public) | Telegram · Python |
 
@@ -100,7 +100,7 @@
 |-------:|:----|
 | [DiskusMS](https://diskusms-site-iota.vercel.app) | портфолио · 3D · rock×hacker |
 | [CoreX](https://github.com/Dente22/CoreX-AI-code-free) | local-first AI IDE · агенты на твоей машине |
-| [Pyrser AI](https://github.com/Dente22/Pyrser-AI-obsydian) | AI-парсер · заметки Obsidian · knowledge |
+| [Resona](https://github.com/Dente22/Resona-music-nearby) | боковой музыкальный плеер · офлайн + стриминг |
 | [diskusms-music](https://github.com/Dente22/diskusms-music) | треки + обложки как источник правды |
 | [WithYou bot](https://github.com/Dente22/WithYou_bot_public) | Telegram · Python |
 
