@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Build assets/projects.svg from GitHub starred repos.
+ * Build assets/projects.svg from YOUR own repos that YOU starred.
+ * Unstar a repo → it disappears on the next workflow run (like the snake refresh).
  *
  * Env:
  *   GITHUB_TOKEN / GH_TOKEN  — optional, higher rate limit
@@ -21,11 +22,11 @@ const ACCENTS = ["#ff1744", "#58a6ff", "#8b5cf6", "#00ff9d", "#f78166", "#a371f7
 
 const FALLBACK = [
   {
-    href: `https://github.com/${USER}?tab=stars`,
-    title: `${USER} · stars`,
-    name: "NO_STARS_YET",
-    desc: "star repos → they show up here",
-    tags: ["GitHub", "Stars", "Soon"],
+    href: `https://github.com/${USER}?tab=repositories`,
+    title: `${USER} · own stars`,
+    name: "STAR_YOUR_REPOS",
+    desc: "star your repo → card appears · unstar → gone",
+    tags: ["Star", "Own", "Auto"],
     accent: "#8b5cf6",
   },
 ];
@@ -47,7 +48,6 @@ function truncate(s, n) {
 
 function prettyName(repoName) {
   const raw = String(repoName || "repo");
-  // Long kebab names → first token as brand (Resona-music-nearby → Resona)
   if (raw.includes("-") && raw.length > 16) {
     return raw.split("-")[0].replace(/\b\w/g, (c) => c.toUpperCase());
   }
@@ -69,31 +69,55 @@ function tagsFor(repo) {
   return tags.slice(0, 3).map((t) => truncate(t, 12));
 }
 
-async function fetchStarred(login) {
+function githubHeaders() {
   const headers = {
     Accept: "application/vnd.github+json",
     "User-Agent": "dente22-build-projects",
     "X-GitHub-Api-Version": "2022-11-28",
   };
   if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
+  return headers;
+}
 
-  const url = `https://api.github.com/users/${encodeURIComponent(login)}/starred?per_page=${LIMIT}`;
-  const res = await fetch(url, { headers });
-  if (!res.ok) {
-    throw new Error(`GitHub starred ${res.status}: ${await res.text()}`);
+/** All starred repos (paginated), newest stars first. */
+async function fetchStarred(login) {
+  const out = [];
+  for (let page = 1; page <= 5; page++) {
+    const url = `https://api.github.com/users/${encodeURIComponent(login)}/starred?per_page=100&page=${page}`;
+    const res = await fetch(url, { headers: githubHeaders() });
+    if (!res.ok) {
+      throw new Error(`GitHub starred ${res.status}: ${await res.text()}`);
+    }
+    const batch = await res.json();
+    if (!Array.isArray(batch) || batch.length === 0) break;
+    out.push(...batch);
+    if (batch.length < 100) break;
   }
-  return res.json();
+  return out;
+}
+
+/** Keep only repositories owned by the profile user. */
+function onlyOwnStarred(starred, login) {
+  const me = login.toLowerCase();
+  return starred.filter((r) => String(r.owner?.login || "").toLowerCase() === me);
+}
+
+function safeHomepage(homepage) {
+  if (!homepage || !/^https?:\/\//i.test(homepage)) return null;
+  try {
+    const host = new URL(homepage).hostname;
+    if (/(^|\.)github\.com$/i.test(host)) return null;
+    return homepage;
+  } catch {
+    return null;
+  }
 }
 
 function mapRepo(repo, i) {
-  const homepage = typeof repo.homepage === "string" ? repo.homepage.trim() : "";
-  const href =
-    homepage && /^https?:\/\//i.test(homepage) && !/(^|\.)github\.com$/i.test(new URL(homepage).hostname)
-      ? homepage
-      : repo.html_url;
+  const href = safeHomepage(repo.homepage) || repo.html_url;
   const desc =
     truncate(repo.description, 56) ||
-    `${repo.language || "repo"} · starred on GitHub`;
+    `${repo.language || "repo"} · starred by you`;
 
   return {
     href,
@@ -138,10 +162,10 @@ function card(p, i) {
 }
 
 function renderSvg(projects) {
-  const rows = Math.ceil(projects.length / 2);
+  const rows = Math.max(1, Math.ceil(projects.length / 2));
   const height = 48 + rows * 180;
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="${height}" viewBox="0 0 1180 ${height}" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Starred projects">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="${height}" viewBox="0 0 1180 ${height}" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Own starred projects">
   <defs>
     <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ff1744">
@@ -154,7 +178,7 @@ function renderSvg(projects) {
   </defs>
   <rect width="1180" height="${height}" fill="#0d1117"/>
   <text x="16" y="24" font-size="12" letter-spacing="2" fill="#58a6ff">PROJECTS.LIST</text>
-  <text x="150" y="24" font-size="11" fill="#484f58">./projects.sh --starred</text>
+  <text x="150" y="24" font-size="11" fill="#484f58">./projects.sh --own-starred</text>
   <line x1="16" y1="34" x2="1164" y2="34" stroke="url(#acc)" stroke-width="1.5" opacity="0.8"/>
 ${projects.map(card).join("\n")}
 </svg>
@@ -165,19 +189,21 @@ async function main() {
   let projects = FALLBACK;
   try {
     const starred = await fetchStarred(USER);
-    if (Array.isArray(starred) && starred.length > 0) {
-      projects = starred.slice(0, LIMIT).map(mapRepo);
-      console.log(`fetched ${projects.length} starred repo(s) for @${USER}`);
+    const own = onlyOwnStarred(starred, USER);
+    if (own.length > 0) {
+      projects = own.slice(0, LIMIT).map(mapRepo);
+      console.log(
+        `own starred: ${own.length} (showing ${projects.length}) for @${USER}; total stars scanned=${starred.length}`,
+      );
     } else {
-      console.log(`no starred repos for @${USER} — using fallback card`);
+      console.log(`no own starred repos for @${USER} — using fallback card`);
     }
   } catch (err) {
     console.warn(`warn: starred fetch failed (${err.message}) — using fallback`);
   }
 
   const svg = renderSvg(projects);
-  const out = path.join(__dirname, "projects.svg");
-  fs.writeFileSync(out, svg);
+  fs.writeFileSync(path.join(__dirname, "projects.svg"), svg, "utf8");
   console.log("wrote projects.svg", projects.length, "cards");
 }
 

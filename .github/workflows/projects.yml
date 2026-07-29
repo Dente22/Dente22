@@ -1,15 +1,22 @@
 name: update starred projects
 
+# Auto-refreshes PROJECTS.LIST from your OWN repos that you starred.
+# Star  → card appears on next run
+# Unstar → card disappears on next run
+# (same idea as the contribution snake daily refresh)
+
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # every 3 hours + once with the snake at midnight UTC
+    - cron: "0 */3 * * *"
+    - cron: "5 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - "assets/build-projects.mjs"
-      - "assets/render-png.mjs"
+      - "assets/render-projects-png.mjs"
       - ".github/workflows/projects.yml"
       - "package.json"
 
@@ -28,12 +35,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
+          # no npm cache — package-lock is not committed
 
       - name: install
-        run: npm install
+        run: npm install --no-fund --no-audit
 
-      - name: build projects from stars
+      - name: build projects from own stars
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
@@ -51,6 +58,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            git commit -m "chore: refresh PROJECTS.LIST from starred repos"
+            git commit -m "chore: refresh PROJECTS.LIST from own starred repos"
             git push
           fi
