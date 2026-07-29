@@ -161,15 +161,24 @@ function pct(i, n) {
 }
 
 function buildKeyframeBody(points) {
-  // Spread path across 0..98%, then snap back to start at 99.2% for a clean loop.
+  // Spread path across 0..98%, densify the off-grid return to start, then land at 99.2%.
   const rules = [];
   const n = points.length;
   for (let i = 0; i < n; i++) {
     const p = points[i];
-    const at = n <= 1 ? 0 : +((i / Math.max(1, n - 1)) * 98).toFixed(2);
+    const at = n <= 1 ? 0 : +((i / Math.max(1, n - 1)) * 96).toFixed(2);
     rules.push(`${at}%{transform:translate(${p.x}px,${p.y}px)}`);
   }
+
   const first = points[0];
+  const last = points[n - 1];
+  const loop = cellsBetween(last, first);
+  const loopCount = loop.length || 1;
+  for (let i = 0; i < loop.length; i++) {
+    const p = loop[i];
+    const at = +(96 + ((i + 1) / (loopCount + 1)) * 3).toFixed(2);
+    rules.push(`${at}%{transform:translate(${p.x}px,${p.y}px)}`);
+  }
   rules.push(`99.2%{transform:translate(${first.x}px,${first.y}px)}`);
   return rules.join("");
 }
