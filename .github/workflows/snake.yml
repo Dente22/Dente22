@@ -16,6 +16,9 @@ jobs:
       contents: write
 
     steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
       - name: generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,6 +26,15 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: tune snake by activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: |
+          node scripts/tune-snake.mjs \
+            dist/github-contribution-grid-snake.svg \
+            dist/github-contribution-grid-snake-dark.svg
 
       - name: push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
