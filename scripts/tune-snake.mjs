@@ -2,8 +2,9 @@
 /**
  * Post-process Platane/snk SVGs:
  * - freeze animation when the current calendar month has 0 contribution days
- * - scale loop duration from yearly active-day count (more days → snappier)
- * - hold still across empty month stretches instead of crawling blank cells
+ * - gently scale loop duration from yearly active-day count (more days → a bit snappier)
+ *
+ * Keeps Platane's original keyframe path intact (no teleport jumps).
  *
  * Usage: node scripts/tune-snake.mjs dist/*.svg
  * Env: GITHUB_TOKEN (optional), GITHUB_USER (default Dente22)
@@ -80,17 +81,19 @@ function summarizeActivity(days) {
   return { yearActive, monthActive, yearTotal, monthKey: ym };
 }
 
-/** More active days → shorter loop (snappier). Sparse → slower. */
+/**
+ * Gentle duration curve around Platane's ~12s default.
+ * More active days → slightly faster; sparse → a bit slower / smoother.
+ */
 function durationForActiveDays(yearActive) {
   if (yearActive <= 0) return 12000;
-  const ms = Math.round(18000 / Math.sqrt(yearActive));
-  return Math.min(20000, Math.max(6000, ms));
+  const ms = Math.round(9000 + 9000 / Math.sqrt(Math.max(yearActive, 1)));
+  return Math.min(16000, Math.max(9000, ms));
 }
 
 function freezeSvg(svg) {
   let out = svg.replace(/animation-name\s*:\s*[^;}]+;?/gi, "animation-name:none;");
   out = out.replace(/animation\s*:\s*[^;}]+;/gi, "animation:none;");
-  // Park snake segments off-grid / at start pose (first translate in each sN keyframe is fine as static transform already set on .s.sN)
   return out;
 }
 
@@ -98,64 +101,6 @@ function rewriteDuration(svg, durationMs) {
   return svg
     .replace(/(\d+(?:\.\d+)?)ms(\s+linear\s+infinite)/gi, `${durationMs}ms$2`)
     .replace(/(linear\s+)(\d+(?:\.\d+)?)ms(\s+infinite)/gi, `$1${durationMs}ms$3`);
-}
-
-/**
- * Parse Platane keyframe body into {pct,x,y} steps.
- * Supports both `12.3%{...}` and `0%,99.15%{...}`.
- */
-function parseTranslateSteps(body) {
-  const steps = [];
-  const re =
-    /([\d.,%\s]+)\s*\{\s*transform:translate\((-?\d+(?:\.\d+)?)px,(-?\d+(?:\.\d+)?)px\)\s*\}/g;
-  let m;
-  while ((m = re.exec(body))) {
-    const x = Number(m[2]);
-    const y = Number(m[3]);
-    const pcts = String(m[1])
-      .split(",")
-      .map((p) => Number(String(p).replace(/%/g, "").trim()))
-      .filter((n) => !Number.isNaN(n));
-    for (const pct of pcts) steps.push({ pct, x, y });
-  }
-  steps.sort((a, b) => a.pct - b.pct || a.x - b.x);
-  return steps;
-}
-
-/**
- * For snake (.s) keyframes: large horizontal jumps = empty months.
- * Convert linear crawl into hold-then-teleport so the snake "stands" on blank stretches.
- */
-function holdAcrossEmptyGaps(svg) {
-  return svg.replace(/@keyframes (s\d+)\{((?:[^{}]|\{[^}]*\})*)\}/g, (full, name, body) => {
-    const expanded = parseTranslateSteps(body);
-    if (expanded.length < 2) return full;
-
-    const JUMP_PX = 48; // ~3 weeks of empty cells
-    const out = [];
-    for (let i = 0; i < expanded.length; i++) {
-      const cur = expanded[i];
-      const prev = expanded[i - 1];
-      if (prev && Math.abs(cur.x - prev.x) >= JUMP_PX) {
-        const holdPct = Math.max(prev.pct, +(cur.pct - 0.05).toFixed(2));
-        if (holdPct > prev.pct + 0.001) {
-          out.push(`${holdPct}%{transform:translate(${prev.x}px,${prev.y}px)}`);
-        }
-      }
-      out.push(`${cur.pct}%{transform:translate(${cur.x}px,${cur.y}px)}`);
-    }
-
-    const seen = new Set();
-    const deduped = [];
-    for (const rule of out) {
-      const key = rule.slice(0, rule.indexOf("{"));
-      if (seen.has(key)) continue;
-      seen.add(key);
-      deduped.push(rule);
-    }
-
-    return `@keyframes ${name}{${deduped.join("")}}`;
-  });
 }
 
 async function tuneFile(filePath, activity) {
@@ -168,7 +113,6 @@ async function tuneFile(filePath, activity) {
   } else {
     const dur = durationForActiveDays(yearActive);
     svg = rewriteDuration(svg, dur);
-    svg = holdAcrossEmptyGaps(svg);
     console.log(
       `▶ ${path.basename(filePath)}: monthActive=${monthActive}, yearActive=${yearActive}, duration=${dur}ms`,
     );
@@ -193,7 +137,6 @@ async function main() {
     );
   } catch (err) {
     console.warn(`warn: could not fetch contributions (${err.message}); inferring from SVG cells`);
-    // Fallback: count contribution cells in first SVG
     const sample = await fs.readFile(files[0], "utf8");
     const cells = (sample.match(/\bc\.c\d+\b/g) || []).length;
     activity = {
