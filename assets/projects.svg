@@ -14,7 +14,7 @@
   <text x="16" y="24" font-size="12" letter-spacing="2" fill="#58a6ff">PROJECTS.LIST</text>
   <text x="150" y="24" font-size="11" fill="#484f58">./projects.sh --own-starred</text>
   <line x1="16" y1="34" x2="1164" y2="34" stroke="url(#acc)" stroke-width="1.5" opacity="0.8"/>
-<a href="https://github.com/Dente22/fullstack-hybrid-rag" target="_blank">
+<a href="https://github.com/Dente22/Wallet" target="_blank">
   <g transform="translate(16,48)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#ff1744" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -22,21 +22,21 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#ff1744">&#8226;</tspan> Dente22/fullstack-hybrid-rag</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#ff1744">&#8226;</tspan> Dente22/Wallet</text>
     <circle cx="538" cy="16" r="3.5" fill="#ff1744">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Fullstack</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Wallet</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">JavaScript · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff1744" stroke-opacity="0.45"/>
-         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
+         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">JavaScript</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff1744" stroke-opacity="0.45"/>
          <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">★ 1</text>
 <rect x="200" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff1744" stroke-opacity="0.45"/>
          <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/enterprise-hybrid-rag" target="_blank">
+<a href="https://github.com/Dente22/multi-agent-telegram-bot" target="_blank">
   <g transform="translate(590,48)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#58a6ff" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -44,11 +44,11 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> Dente22/enterprise-hybrid-rag</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> Dente22/multi-agent-telegram-bot</text>
     <circle cx="538" cy="16" r="3.5" fill="#58a6ff">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Enterprise</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Multi</text>
     <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#58a6ff" stroke-opacity="0.45"/>
          <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
@@ -58,7 +58,7 @@
          <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/enterprise-ai-task-extractor" target="_blank">
+<a href="https://github.com/Dente22/fullstack-hybrid-rag" target="_blank">
   <g transform="translate(16,228)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#8b5cf6" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -66,11 +66,11 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#8b5cf6">&#8226;</tspan> Dente22/enterprise-ai-task-extractor</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#8b5cf6">&#8226;</tspan> Dente22/fullstack-hybrid-rag</text>
     <circle cx="538" cy="16" r="3.5" fill="#8b5cf6">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Enterprise</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Fullstack</text>
     <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#8b5cf6" stroke-opacity="0.45"/>
          <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
@@ -80,7 +80,7 @@
          <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/VibeGuard" target="_blank">
+<a href="https://github.com/Dente22/enterprise-hybrid-rag" target="_blank">
   <g transform="translate(590,228)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#00ff9d" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -88,21 +88,21 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#00ff9d">&#8226;</tspan> Dente22/VibeGuard</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#00ff9d">&#8226;</tspan> Dente22/enterprise-hybrid-rag</text>
     <circle cx="538" cy="16" r="3.5" fill="#00ff9d">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">VibeGuard</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">Offline security scorecard for vibe-coded projects — lo…</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Enterprise</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#00ff9d" stroke-opacity="0.45"/>
-         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">TypeScript</text>
+         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#00ff9d" stroke-opacity="0.45"/>
          <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">★ 1</text>
 <rect x="200" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#00ff9d" stroke-opacity="0.45"/>
          <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/AI-my-home" target="_blank">
+<a href="https://github.com/Dente22/enterprise-ai-task-extractor" target="_blank">
   <g transform="translate(16,408)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#f78166" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -110,21 +110,21 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#f78166">&#8226;</tspan> Dente22/AI-my-home</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#f78166">&#8226;</tspan> Dente22/enterprise-ai-task-extractor</text>
     <circle cx="538" cy="16" r="3.5" fill="#f78166">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">AI My Home</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">NEXUS — Multi-AI Command Hub: desktop app (Electron + R…</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Enterprise</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#f78166" stroke-opacity="0.45"/>
-         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">TypeScript</text>
+         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#f78166" stroke-opacity="0.45"/>
-         <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">ai</text>
+         <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">★ 1</text>
 <rect x="200" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#f78166" stroke-opacity="0.45"/>
-         <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">desktop-app</text>
+         <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/Spokes" target="_blank">
+<a href="https://github.com/Dente22/VibeGuard" target="_blank">
   <g transform="translate(590,408)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#a371f7" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -132,12 +132,12 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#a371f7">&#8226;</tspan> Dente22/Spokes</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#a371f7">&#8226;</tspan> Dente22/VibeGuard</text>
     <circle cx="538" cy="16" r="3.5" fill="#a371f7">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Spokes</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">TypeScript · starred by you</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">VibeGuard</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">Offline security scorecard for vibe-coded projects — lo…</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#a371f7" stroke-opacity="0.45"/>
          <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">TypeScript</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#a371f7" stroke-opacity="0.45"/>
@@ -146,7 +146,7 @@
          <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/Resona-music-nearby" target="_blank">
+<a href="https://github.com/Dente22/AI-my-home" target="_blank">
   <g transform="translate(16,588)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#ff9f1c" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -154,21 +154,21 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#ff9f1c">&#8226;</tspan> Dente22/Resona-music-nearby</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#ff9f1c">&#8226;</tspan> Dente22/AI-my-home</text>
     <circle cx="538" cy="16" r="3.5" fill="#ff9f1c">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Resona</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">Resona — музыка рядом. Slide-in desktop player for Wind…</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">AI My Home</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">NEXUS — Multi-AI Command Hub: desktop app (Electron + R…</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff9f1c" stroke-opacity="0.45"/>
          <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">TypeScript</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff9f1c" stroke-opacity="0.45"/>
-         <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">★ 1</text>
+         <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">ai</text>
 <rect x="200" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#ff9f1c" stroke-opacity="0.45"/>
-         <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">GitHub</text>
+         <text x="242" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">desktop-app</text>
   </g>
 </a>
-<a href="https://github.com/Dente22/CoreX-AI-code-free" target="_blank">
+<a href="https://github.com/Dente22/Spokes" target="_blank">
   <g transform="translate(590,588)">
     <rect width="558" height="164" rx="14" fill="#010409" stroke="#2dd4bf" stroke-opacity="0.45">
       <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
@@ -176,14 +176,14 @@
     <rect width="558" height="32" rx="14" fill="#0d1117"/>
     <rect y="18" width="558" height="14" fill="#0d1117"/>
     <line x1="0" y1="32" x2="558" y2="32" stroke="rgba(255,255,255,0.08)"/>
-    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#2dd4bf">&#8226;</tspan> Dente22/CoreX-AI-code-free</text>
+    <text x="16" y="21" font-size="11" fill="#8b949e"><tspan fill="#2dd4bf">&#8226;</tspan> Dente22/Spokes</text>
     <circle cx="538" cy="16" r="3.5" fill="#2dd4bf">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">CoreX</text>
-    <text x="16" y="92" font-size="14" fill="#8b949e">Python · starred by you</text>
+    <text x="16" y="64" font-size="22" font-weight="700" fill="#e6edf3">Spokes</text>
+    <text x="16" y="92" font-size="14" fill="#8b949e">TypeScript · starred by you</text>
     <rect x="16" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#2dd4bf" stroke-opacity="0.45"/>
-         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">Python</text>
+         <text x="58" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">TypeScript</text>
 <rect x="108" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#2dd4bf" stroke-opacity="0.45"/>
          <text x="150" y="134" text-anchor="middle" font-size="11" fill="#e6edf3">★ 1</text>
 <rect x="200" y="118" width="84" height="24" rx="12" fill="rgba(139,92,246,0.18)" stroke="#2dd4bf" stroke-opacity="0.45"/>
